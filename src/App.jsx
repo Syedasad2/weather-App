@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import './index.css'; // Ensure Tailwind CSS is imported
+import './index.css'; 
 
 const topCities = [
   "Karachi",
@@ -22,7 +22,7 @@ function App() {
   const [weatherData, setWeatherData] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const [unit, setUnit] = useState('metric'); // 'metric' for Celsius, 'imperial' for Fahrenheit
+  const [unit, setUnit] = useState('metric'); 
   const [currentPosition, setCurrentPosition] = useState(null);
 
   useEffect(() => {
